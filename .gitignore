@@ -182,6 +182,10 @@ seeds/*.csv
 *.pem
 .env.local
 .env.*.local
+config.yaml
+config.py
+profiles.yml
+main0.py
 
 # OS generated files
 .DS_Store
@@ -205,4 +209,4 @@ uv.lock
 *.temp
 *.swp
 *.swo
-*~
+*~main0.py
