@@ -1,0 +1,7 @@
+version: 2
+
+models: # Contient la liste des modèles documentés
+    - name: stg_customers #  Le nom du modèle, correspondant au fichier SQL
+      columns:
+        - name: customer_id # Le nom de la colonne du modèle
+        - name: customer_name # Le nom de la colonne du modèle

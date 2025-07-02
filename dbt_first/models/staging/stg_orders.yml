@@ -1,0 +1,9 @@
+version: 2
+
+models: # Contient la liste des modèles documentés
+    - name: stg_orders #  Le nom du modèle, correspondant au fichier SQL
+      columns:
+        - name: customer_name # Le nom de la colonne du modèle
+        - name: order_id # Le nom de la colonne du modèle
+        - name: customer_name # Le nom de la colonne du modèle
+        - name: ordered_at_store # Le nom de la colonne du modèle

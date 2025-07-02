@@ -1,0 +1,9 @@
+version: 2 # Indique la version de la spécification YAML utilisée (v2 est la version actuelle pour DBT)
+
+sources: # Définit la section contenant les sources de données
+    - name: my_dbt_db #  Le nom de la source de données, souvent lié au projet ou à l'entrepôt de données
+      schema: my_dbt_db # Le nom du schéma où sont stockées les tables brutes (dans cet exemple, il s'agit du schéma de la base de données MySQL)
+
+      tables: # Liste des tables brutes référencées dans vos modèles
+        - name: raw_customers
+        - name: raw_orders
