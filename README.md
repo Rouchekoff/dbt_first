@@ -10,7 +10,8 @@
     "pymysql",
     "sqlalchemy",
     "sqlalchemy_utils",
-    "cryptography
+    "cryptography",
+   "python-dotenv"
 4. Configurez vos variables d'environnement :
    ```bash
    export DB_USERNAME=your_username
